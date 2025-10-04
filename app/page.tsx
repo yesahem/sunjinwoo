@@ -52,7 +52,7 @@ export default function CarouselSize() {
     const opacity = absDistance > 2 ? 0.3 : 1 - (absDistance * 0.2)
     
     // translateX: spread cards out
-    const translateX = distance * -150 // (change this to change the distance between cards)
+    const translateX = distance * 5 // (change this to change the distance between cards)
     
     return {
       transform: `translateX(${translateX}%) scale(${scale}) rotateY(${rotation}deg)`,
